@@ -58,7 +58,7 @@ body{
 	
 }
 
-@media(max-width:800px){
+@media(max-width:950px){
 	.post-gui{
 		grid-template-columns:400px;
 				
