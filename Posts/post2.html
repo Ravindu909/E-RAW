@@ -4,9 +4,9 @@
 
 <link rel="stylesheet" href="blog.css">
 <link rel="stylesheet" href="Styles/about.css">
-<link rel="stylesheet" href="../newnavbar.css">
+<link rel="stylesheet" href="../nav.css">
 <link rel="stylesheet" href="post1.css">
-<link rel="stylesheet" href="../footer.css">
+<link rel="stylesheet" href="footer.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <title>ඍණයි, ඍණයි ගුණිතය ධන උනේ කොහොමද</title>
@@ -15,15 +15,19 @@
 <body>
 
 	<!--navbar-->
-	<nav>
-		
-		<h1 class ="logo" style="color:rgb(50,50,50);">Fitedu</h1>
-		
-		<ul>
-			<li><a href = "../index.html"> Home </a></li>
+	<script src = "../navbarjs.js"></script>
+		<nav id="navbar">
+	
+			<div class="left">
+				<h4>E-RAW</h4>
+			</div>
+			<div class="right">
+				<div><a href="../index.html">home</a></div>
+				<div><a href="#">about</a></div>				
+			</div>
 			
-		</ul>
-	</nav>
+	
+		</nav>
 	
 	<div class="empty"></div></br></br></br></br></br></br></br>
 	
@@ -119,10 +123,10 @@
 		
 		<!--footer -->
 		
-    <footer>
+     <footer>
         <div class="footer-content">
-			<h3>F. I. T. EDU BLOG</h3>
-            <p>Contact us</p>   
+			<h3>E-RAW</h3>
+            <p>Contact us</p>
 			<ul class="socials">
                 <li><a href="https://www.facebook.com/ravindu.nethsara.1" target="_blank"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -132,13 +136,12 @@
             </ul>
         </div>
         <div class="footer-bottom">
-            <p>copyright &copy; <a href="#">F. I. T. EDU</a>  </p>
+            <p>copyright &copy; <a href="#">E-RAW</a>  </p>
                     <div class="footer-menu">
                       <ul class="f-menu">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="../index.html">Home</a></li>
                         <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="index.html">Blog</a></li>
+                        <li><a href="../index.html">Blog</a></li>
                       </ul>
                     </div>
         </div>
